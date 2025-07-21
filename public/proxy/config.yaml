@@ -1,0 +1,15 @@
+proxy:
+  userName:
+  password:
+  socketPort: 10080
+  httpPort: 10081
+
+log:
+  enable: false
+  path: /www/gmssh/logs/proxy
+  level: INFO
+  maxSize: 1000
+  maxBackups: 30
+  maxAge: 7
+  compress: false
+

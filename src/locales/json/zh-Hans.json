@@ -1,0 +1,122 @@
+{
+  "proxy": "您真的要{text}proxy服务吗?",
+  "components": {
+    "AppNameFormItem": {
+      "pUCAsc": "组织名",
+      "w2EWkK": "应用名"
+    }
+  },
+  "modal": {
+    "AddAppModal": {
+      "Whq9RF": "创建调试应用",
+      "2TuvVD": "应用类型",
+      "cjR1KB": "应用名称",
+      "SCl2A8": "访问地址",
+      "1cGLnv": "请输入前端入口页面URL",
+      "m9n21q": "服务类型",
+      "jX6k0s": "服务端口号",
+      "jbsZFL": "请输入后端服务端口号",
+      "Xnf5nO": "Socket路径",
+      "GkMMQF": "前端",
+      "4d5Jom": "前后端",
+      "318UXp": "请输入端口号",
+      "yActvG": "端口号不符合规范",
+      "1VXj1B": "请选择路径",
+      "ullhoz": "请输入应用名称",
+      "0miXN2": "请输入正确的应用名称",
+      "eIbqEb": "请输入访问地址",
+      "EY34iF": "请输入正确的url路径"
+    },
+    "EditAppModal": {
+      "rkc0hw": "编辑应用",
+      "NWonXP": "保存"
+    }
+  },
+  "utils": {
+    "index": {
+      "ojL0nl": "复制成功"
+    },
+    "request": {
+      "LNfO6O": "请求失败"
+    }
+  },
+  "views": {
+    "index": {
+      "n2El17": "创建应用",
+      "NC3LR3": "打开",
+      "IliHYd": "编辑",
+      "toh23g": "删除",
+      "vyvyw5": "访问地址：",
+      "ch08QT": "服务端口号：",
+      "gaGuN3": "服务状态：",
+      "iFIyDD": "进行中",
+      "RlwCRV": "未运行",
+      "lp759G": "尚未创建应用，请点击创建",
+      "JZ7uUE": "警告",
+      "oxcNjk": "确定删除该应用？",
+      "LJQKql": "确定",
+      "ROlxB8": "取消",
+      "lGRCH3": "基础配置",
+      "a1AKNW": "用户名",
+      "GWLoA5": "留空表示无需认证",
+      "9H0Ul5": "密码",
+      "IZW39x": "Socket代理端口",
+      "ccqolf": "HTTP代理端口",
+      "rL9jCz": "日志配置",
+      "JgHAAt": "启用日志",
+      "TjMhgp": "日志目录",
+      "31IEje": "日志级别",
+      "I2sLZe": "单日志最大大小",
+      "enA3oW": "最大备份日志数",
+      "6quMWn": "日志保留天数",
+      "V9kee9": "日志压缩",
+      "eM5frg": "Proxy状态",
+      "JI8NwA": "Proxy配置",
+      "EbqSeJ": "打开配置文件",
+      "4tsXNW": "仅启用日志，日志相关配置才会生效",
+      "qfFBS2": "旧日志会被 gzip 压缩以节省空间",
+      "qqvhci": "修改配置后需要重启 Proxy 服务生效，如果您不熟悉Proxy应用配置，请勿随意更改",
+      "A05jWJ": "请输入Socket代理端口",
+      "jr588i": "端口格式不规范",
+      "QbM5O4": "请输入HTTP代理端口",
+      "qSzznB": "请输入日志目录",
+      "4L4dNA": "请输入",
+      "Ob73Dd": "http端口和socket端口不可相同"
+    },
+    "control": {
+      "ln4ET9": "控制台",
+      "Ai4uYe": "当前状态：",
+      "Kxajn8": "运行中",
+      "YDOHeC": "已停止",
+      "6yqVJv": "停止",
+      "ZwCBno": "启动",
+      "egotk7": "重启",
+      "pMYZQd": "您真的要{XXX}proxy服务吗",
+      "vN5hTM": "您真的要{XXX} proxy服务吗",
+      "2AN3Dz": "操作成功"
+    },
+    "file": {
+      "TrSNRp": "配置文件",
+      "eRGhTa": "此处为proxy主配置文件，若您不了解配置规则，请勿随意修改",
+      "sYqlC1": "此处为proxy主配置文件，若您不了解配置规则，请勿随意修改,是否继续?",
+      "XdofrU": "配置修改成功"
+    }
+  },
+  "hooks": {
+    "index": {
+      "glzKwZ": "服务操作",
+      "eA74kI": "配置更新",
+      "dVw0m0": "配置读取",
+      "syRc8N": "请确认输入了有效的内容",
+      "7n3CHZ": "请确认输入的格式(yaml)格式是否有效",
+      "PCyeFx": "\nexit 0\nelse\n# 定义 CONFIG_FILE_PATH\nCONFIG_FILE_PATH=",
+      "oJHDH4": "\n# 检查文件是否存在\nif [ ! -f ",
+      "IMTshD": " ]; then\n    # 创建目录\n    mkdir -p ",
+      "zWbxj1": "\n\n    # 复制文件\n    cp ",
+      "6ZbiCs": "\n\n    # 检查复制是否成功\n    if [ $? -eq 0 ]; then\n        init_code=",
+      "Nxbo4C": "\n        exit 1\n    fi\nelse\n    # 文件已经存在，直接返回成功\n    init_code=",
+      "w7otX7": "\n\n    # 检查复制是否成功\n    if [ $? -eq 0 ]; then\n        echo ",
+      "sGwaLW": "\n    else\n        exit 1\n    fi\nelse\n    # 文件已经存在，直接返回成功\n    echo "
+    }
+  }
+}

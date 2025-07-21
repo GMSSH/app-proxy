@@ -1,0 +1,105 @@
+{
+  "proxy": "Really {text} proxy service?",
+  "components": {
+    "AppNameFormItem": {
+      "pUCAsc": "Organization Name",
+      "w2EWkK": "Application Name"
+    }
+  },
+  "modal": {
+    "AddAppModal": {
+      "Whq9RF": "Create Debug Application",
+      "2TuvVD": "Application Type",
+      "cjR1KB": "Application Name",
+      "SCl2A8": "Access Address",
+      "1cGLnv": "Please enter the front-end entry page URL",
+      "m9n21q": "Service Type",
+      "jX6k0s": "Service Port Number",
+      "jbsZFL": "Please enter the back-end service port number",
+      "Xnf5nO": "Socket Path",
+      "GkMMQF": "Frontend",
+      "4d5Jom": "Full Stack",
+      "318UXp": "Please enter port number",
+      "yActvG": "Port number does not conform to specifications",
+      "1VXj1B": "Please select a path",
+      "ullhoz": "Please enter application name",
+      "0miXN2": "Please enter a valid application name",
+      "eIbqEb": "Please enter access address",
+      "EY34iF": "Please enter a valid URL path"
+    },
+    "EditAppModal": {
+      "rkc0hw": "Edit Application",
+      "NWonXP": "Save"
+    }
+  },
+  "utils": {
+    "index": {
+      "ojL0nl": "Copy Successfully"
+    },
+    "request": {
+      "LNfO6O": "Request Failed"
+    }
+  },
+  "views": {
+    "index": {
+      "n2El17": "Create Application",
+      "NC3LR3": "Open",
+      "IliHYd": "Edit",
+      "toh23g": "Delete",
+      "vyvyw5": "Access Address:",
+      "ch08QT": "Service Port Number:",
+      "gaGuN3": "Service Status:",
+      "iFIyDD": "In Progress",
+      "RlwCRV": "Not Running",
+      "lp759G": "No application has been created yet, please click Create",
+      "JZ7uUE": "Warning",
+      "oxcNjk": "Are you sure you want to delete this application?",
+      "LJQKql": "Confirm",
+      "ROlxB8": "Cancel",
+      "lGRCH3": "Basic Configuration",
+      "a1AKNW": "Username",
+      "GWLoA5": "Leave blank if no authentication is required",
+      "9H0Ul5": "Password",
+      "IZW39x": "Socket Proxy Port",
+      "ccqolf": "HTTP Proxy Port",
+      "rL9jCz": "Log Configuration",
+      "JgHAAt": "Enable Logging",
+      "TjMhgp": "Log Directory",
+      "31IEje": "Log Level",
+      "I2sLZe": "Maximum Size per Log File",
+      "enA3oW": "Maximum Backup Logs",
+      "6quMWn": "Log Retention Days",
+      "V9kee9": "Log Compression",
+      "eM5frg": "Proxy Status",
+      "JI8NwA": "Proxy Configuration",
+      "EbqSeJ": "Open Configuration File",
+      "4tsXNW": "Only enabling logging will make the related log configurations take effect",
+      "qfFBS2": "Old logs will be compressed with gzip to save space",
+      "qqvhci": "If you are not familiar with the proxy application configuration, do not change it at will",
+      "A05jWJ": "Please enter the Socket Proxy Port",
+      "jr588i": "Port format is invalid",
+      "QbM5O4": "Please enter the HTTP Proxy Port",
+      "qSzznB": "Please enter the Log Directory",
+      "4L4dNA": "Please enter",
+      "Ob73Dd": "HTTP port and Socket port cannot be the same"
+    },
+    "control": {
+      "ln4ET9": "Console",
+      "Ai4uYe": "Current Status:",
+      "Kxajn8": "Running",
+      "YDOHeC": "Stopped",
+      "6yqVJv": "Stop",
+      "ZwCBno": "Start",
+      "egotk7": "Restart",
+      "pMYZQd": "Are you really going to {XXX} the proxy service?",
+      "vN5hTM": "Are you really going to {XXX} the proxy service?",
+      "2AN3Dz": "Operation Successful"
+    },
+    "file": {
+      "TrSNRp": "Configuration",
+      "eRGhTa": "This is the main configuration file for the proxy. If you do not understand the configuration rules, please do not modify it arbitrarily.",
+      "sYqlC1": "This is the main configuration file for the proxy. If you do not understand the configuration rules, please do not modify it arbitrarily. Do you wish to continue?",
+      "XdofrU": "Configuration modification successful"
+    }
+  }
+}
