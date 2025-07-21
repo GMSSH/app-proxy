@@ -1217,6 +1217,11 @@ gm-app-components@^1.0.0:
   resolved "https://registry.npmmirror.com/gm-app-components/-/gm-app-components-1.0.0.tgz#ebd3919700233f10cc2ebb85efeee9b5c045863b"
   integrity sha512-jqEop6O1haRP2xjIN56x1/QrFS58C8oG8jfjXCibe9d/1XaTv0HxY1oFKmk6hM8V7PIWY9EB/BySHOUEC0RdnA==
 
+gm-app-sdk@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/gm-app-sdk/-/gm-app-sdk-1.0.0.tgz#86b0cd8be047de73b98c2904f1f9db247e6c9e3b"
+  integrity sha512-lIiGFzuEzFaJ6wReol5g5lF1/DEUWSqLLqhWEr4vd9yzX2iRFv+1gj3GqauATEZr6PtmbGrrXG4Ue0PxjagYSA==
+
 graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   version "4.2.11"
   resolved "https://registry.npmmirror.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"

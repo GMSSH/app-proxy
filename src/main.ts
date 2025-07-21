@@ -1,3 +1,4 @@
+import 'gm-app-sdk';
 import { createApp } from 'vue';
 import './style/index.scss';
 import 'gm-app-components/index.css';
